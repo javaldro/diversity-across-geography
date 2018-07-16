@@ -1,7 +1,7 @@
-The Types of Contributions I'm looking for
+# The Types of Contributions I'm looking for
 Essentially, I'd love contributions that add better (ie more granularity) datasets, and new functionality of the tool. If you want to alter the base code in some meaningful way, please get in touch with me via GitHub. When you add additional functionality (ie, Gender by country), please make a separate R or python file and specify what it can be used for / how to use it as comments in the code.
 
-Roadmap / Where you Can Help
+# Roadmap / Where you Can Help
 Here is a roadmap ordered from most to less impactful in my eye:
 
 1. Taking differential labour force participation rates across states in the USA for Gender
