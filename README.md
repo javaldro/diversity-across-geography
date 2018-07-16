@@ -1,7 +1,4 @@
-# diversity-across-geography
-A project seeking it to make it easier for companies to compare the representation of different groups in their workforce to the local labor force across geography
-
-# What does this project to?
+# What does this project do?
 This project aims to make it easier for HR/people analysts to compare the representation of different demographics in their company to the communities they have a presence in. It also helps identify if a company is getting the application numbers from different groups they would expect based on the same criteria. 
 
 # Why is this project useful? 
