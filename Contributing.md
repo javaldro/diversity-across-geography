@@ -10,10 +10,10 @@ The script I created currently just applies USA-wide labour force participation 
 2. Adding functionality for comparisons of ethnicity in USA by state
 I have actually already built most of the script for this, but I ran into a major roadblock. I have only seen companies collect ethnicity in a format that parses our Hispanic/Latino folks as a separate group, but the American community survey does not. Instead, they have a separate table of what percentage of white folks, black folks, etc are Hispanic for the USA overall. I could make a correction myself, but the problem is that it would end up assuming that Hispanic/ Latino folks are evenly distributed across the USA, which is obviously not the case. So if you know of some better data sets that could solve this problem, we could add this very important functionality. I have added the files I have access to for your reference. 
 
-*GENDER SOLVED by @javaldro with the help of Frank Mu*
-
 3. Making comparisons across countries
 Obviously, the USA is not the only place where people are thinking about these topics. I haven’t searched too hard for relevant data, but if someone could find by country breakdowns of the labor force, we could apply this same approach to see if a company is appropriately mirroring the labour force composition of different countries they have a presence in. I think this would be very interesting, as naturally ethnic population base rates vary meaningfully across countries, as does the labour force participation of women. That said, I think the ethnic piece has an additional challenge in that the terminology and definitions of different groups vary meaningfully across countries. 
+
+^*GENDER SOLVED by @javaldro with the help of Frank Mu*^
 
 4. Creating an easy conversion from state shorthand (NY) to state name (New York); Same with Countries
 Not all of our state data is in the same format, and the script currently only recognizes full state name. It would be great if someone could create a framework for this conversion to make all of our lives a bit easier. 
