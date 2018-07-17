@@ -41,7 +41,7 @@ write_csv(Gender_summary_filt,"Gender Summary Table.csv")
 
 
 
-# (OPTIONAL) Reading in Applications Data: INPUT A CSV FILE "GENDER" and "STATE" COLUMNS (Gender must be male, female, or blank, State just the state name)
+# (OPTIONAL) Reading in Applications Data: INPUT A CSV FILE "GENDER" and "STATE" COLUMNS IN DIVERSITY ACROSS GEOGRAPHY FOLDER (Gender must be male, female, or blank, State just the state name)
 applications <- read_csv("Your File Here 2.csv")
 
 # (OPTIONAL) Creating by State Application Gender Percentages
