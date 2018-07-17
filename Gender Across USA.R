@@ -6,8 +6,8 @@ library(tidyr)
 Company_demos <- read_csv("Your file Here.csv")
 
 #Reading in Labor Force Participation Rates and Census Numbers
-Gender_LFPR <- read_csv("Desktop/Gender Representation Tester/Labor force participation Gender.csv")
-Gender_state <- read_csv("Desktop/Gender Representation Tester/Gender demo numbers by state.csv")
+Gender_LFPR <- read_csv("Desktop/diversity-across-geography-master/Labor force participation Gender.csv")
+Gender_state <- read_csv("Desktop/diversity-across-geography-master/Gender demo numbers by state.csv")
 
 # Creating by State Company Gender Percentages
 filtered_gend <- filter(Company_demos, !is.na(Gender))
@@ -34,7 +34,7 @@ Gender_summary_filt <- filter(Gender_summary, total_emps >= 10)
 Gender_summary_filt <- Gender_summary_filt[order(Gender_summary_filt$Female_difference),]
 
 #Writing Summary Table to CSV
-write_csv(Gender_summary_filt,"Desktop/Gender Representation Tester/Gender Summary Table.csv")
+write_csv(Gender_summary_filt,"Desktop/diversity-across-geography-master/Gender Summary Table.csv")
 
 
 
@@ -56,6 +56,6 @@ Gender_summary_apps_filt <- filter(Gender_Summary_Apps, total_emps >= 10)
 Gender_summary_apps_filt <- Gender_summary_apps_filt[order(Gender_summary_apps_filt$Female_difference),]
 
 # (OPTIONAL) Writing Applications Summary Table to CSV
-write_csv(Gender_summary_apps_filt,"Desktop/Gender Representation Tester/Gender and Apps Summary Table.csv")
+write_csv(Gender_summary_apps_filt,"Desktop/diversity-across-geography-master/Gender and Apps Summary Table.csv")
 
 
